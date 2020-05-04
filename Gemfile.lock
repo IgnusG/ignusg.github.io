@@ -142,6 +142,10 @@ GEM
       jekyll (>= 3.3, < 5.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-sleek (0.1.8)
+      jekyll (~> 3.6)
+      jekyll-seo-tag (~> 2.3)
+      jekyll-sitemap (~> 1.1)
     jekyll-swiss (1.0.0)
     jekyll-theme-architect (0.1.1)
       jekyll (~> 3.5)
@@ -212,6 +216,7 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (3.1.1)
+    pygmentize (0.0.3)
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -235,10 +240,7 @@ GEM
       ethon (>= 0.9.0)
     tzinfo (1.2.7)
       thread_safe (~> 0.1)
-    tzinfo-data (1.2020.1)
-      tzinfo (>= 1.0.0)
     unicode-display_width (1.7.0)
-    wdm (0.1.1)
     zeitwerk (2.3.0)
 
 PLATFORMS
@@ -247,9 +249,8 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-feed (~> 0.6)
-  tzinfo (~> 1.2)
-  tzinfo-data
-  wdm (~> 0.1.0)
+  jekyll-sleek (~> 0.1.8)
+  pygmentize (~> 0.0.3)
 
 BUNDLED WITH
    2.1.4
