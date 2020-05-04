@@ -29,6 +29,7 @@ theme: jekyll-sleek
 remote_theme: janczizikow/sleek
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 kramdown:
     # Use GitHub flavored markdown, including triple backtick fenced code blocks
