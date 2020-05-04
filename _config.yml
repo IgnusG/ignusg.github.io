@@ -1,0 +1,39 @@
+author: Jonathan Juhas
+title: A never ending story - continued.
+tagline: A collection of tools/posts/learnings I'd like to share with the world
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+social:
+  name: Jonathan Juhas
+  links:
+    - https://www.linkedin.com/in/jonathanjuhas
+    - https://github.com/ignusg
+
+navigation: # Navigation links
+  - {name: 'Home', link: '/'}
+  - {name: 'About', link: '/about'}
+  - {name: 'Contact', link: '/contact'}
+
+hero_img: hero.jpg
+
+github_username: ignusg
+
+service_worker: true
+
+
+# Build settings
+markdown: kramdown
+theme: jekyll-sleek
+plugins:
+  - jekyll-feed
+
+kramdown:
+    # Use GitHub flavored markdown, including triple backtick fenced code blocks
+    input: GFM
+    # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+    syntax_highlighter: rouge
+    syntax_highlighter_opts:
+        # Use existing pygments syntax highlighting css
+        css_class: 'highlight'

@@ -1,2 +1,4 @@
-# Hello World!
-
+---
+layout: default
+title: Blog by IgnusG
+---

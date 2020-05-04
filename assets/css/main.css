@@ -1,0 +1,88 @@
+@import "/assets/css/highlight.css";
+
+.header__logo {
+  height: 100%;
+  padding: 0;
+}
+
+.header__logo:after {
+  content: "IgnusG";
+  margin-left: 7px;
+}
+
+.header__logo--container {
+  height: 85%;
+}
+
+.header__logo--container > svg {
+  width: 100%;
+  height: 100%;
+  min-width: 50px;
+  min-height: 50px;
+}
+
+.header__link {
+  will-change: color;
+  transition: all .3s;
+  color: #7b7e8e; 
+}
+
+.header__link:hover {
+  color: #393f5f;
+}
+
+.hero {
+  height: 10em;
+  user-select: none;
+}
+
+@media only screen and (min-width: 48em) {
+  .hero__wrap .hero__title {
+    padding-bottom: 0;
+  }
+}
+
+.hero__title:after {
+  content: "Blog by IgnusG";
+  display: block;
+  font-weight: lighter;
+  font-size: 0.6em;
+}
+
+.post-content {
+  padding-top: 4em;
+}
+
+.post-card {
+  will-change: transform;
+  transition: all .3s;
+}
+
+.post-card:hover {
+  transform: scale(1.05);
+}
+
+.post-card:active {
+  transform: scale(0.95);
+}
+
+a.label {
+  will-change: background, color;
+  transition: all .3s;
+}
+
+a.label:hover {
+  background: white;
+  color: #656565;
+}
+
+footer {
+  padding-bottom: 1em;
+}
+
+@media only screen and (min-width: 62em) {
+  .hero {
+    height: 20em;
+    margin-top: 4em;
+  }
+}
