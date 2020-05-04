@@ -12,16 +12,11 @@ social:
     - https://github.com/ignusg
 
 navigation: # Navigation links
-  - {name: 'Home', link: '/'}
-  - {name: 'About', link: '/about'}
-  - {name: 'Contact', link: '/contact'}
+  - {name: 'Blog', link: '/'}
+  - {name: 'Projects', link: '/projects'}
+  - {name: 'About & Contact', link: '/contact'}
 
 hero_img: hero.jpg
-
-github_username: ignusg
-
-service_worker: true
-
 
 # Build settings
 markdown: kramdown
