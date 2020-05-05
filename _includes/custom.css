@@ -23,8 +23,17 @@
   min-height: 50px;
 }
 
+section {
+  background: #f7f7f7;
+}
+
 .hero {
   user-select: none;
+}
+
+/* More stylized background for images */
+.hero:before {
+  background: linear-gradient(50deg, rgba(62, 51, 81, 0.67), rgba(218, 164, 65, 0.54)) !important;
 }
 
 @media only screen and (min-width: 62em) {
@@ -44,22 +53,11 @@
   font-weight: lighter;
 }
 
-.post-card {
-  will-change: transform;
-  transition: all .3s;
-}
-
-.post-card:hover {
-  transform: scale(1.05);
-}
-
-.post-card:active {
-  transform: scale(0.95);
-}
-
 a.label {
   will-change: background, color;
   transition: all .3s;
+
+  backdrop-filter: blur(3px);
 }
 
 a.label:hover {
