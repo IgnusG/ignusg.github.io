@@ -80,6 +80,7 @@ a.label {
   transition: background .3s, color .3s;
 
   backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
 }
 
 a.label:hover {
