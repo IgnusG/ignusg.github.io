@@ -18,7 +18,7 @@ for image_file_name in filenames:
         widths = [
                 (230, '_placehold'), 
                 (535, '_thumb'), 
-                (535*2, '_thumbx2'),
+                (535*2, '_thumb@2x'),
                 (575, '_xs'),
                 (767, '_sm'),
                 (991, '_md'),
