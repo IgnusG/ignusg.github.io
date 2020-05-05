@@ -27,8 +27,26 @@ section {
   background: #f7f7f7;
 }
 
+/* Do not apply these rules for post labels */
+section a:not(.label), main a:not(.label) {
+  /* Use the classical underline as it improves readability */
+  border-bottom: none !important;
+  text-decoration: underline !important;
+  /* Remove transition of font-size for anchors - it's annoying */
+  transition: color !important;
+}
+
+main .post-card a {
+  /* Remove the above rule for post cards - hinders readability otherwise */
+  text-decoration: none !important;
+}
+
 .hero {
   user-select: none;
+}
+
+.hero--small {
+  background-position: 50%;
 }
 
 /* More stylized background for images */
@@ -55,7 +73,7 @@ section {
 
 a.label {
   will-change: background, color;
-  transition: all .3s;
+  transition: background .3s, color .3s;
 
   backdrop-filter: blur(3px);
 }
